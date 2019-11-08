@@ -3,10 +3,12 @@
   <groupId>dad.javafx</groupId>
   <artifactId>AdivinApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <properties>
-  	<maven.compiler.target>11</maven.compiler.target>
-  	<maven.compiler.source>11</maven.compiler.source>
-  	</properties>
+ 	<properties>
+	  	<maven.compiler.target>11</maven.compiler.target>
+	  	<maven.compiler.source>11</maven.compiler.source>
+	  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	  	<exec.main.Class>dad.javafx.AdivinApp.Main</exec.main.Class>
+	</properties>
   
   
   	<dependencies>
